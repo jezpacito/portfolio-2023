@@ -1,84 +1,84 @@
 .mainmanu ul li:hover a, .mainmanu ul li.current a, .off-canvas-menu ul li:hover a, .off-canvas-menu ul li.current a {
-    color: #ffce1d;
+    color: #A27B5C;
 }
 .menu-trigger:hover {
-    color: #ffce1d;
+    color: #A27B5C;
 }
 .menu-close {
-	color: #ffcc33;
+	color: #A27B5C;
 }
 .slide-area h3 {
-    color: #ffcc33;
+    color: #A27B5C;
 }
 .boxed-btn {
-	background-color: #ffcf1c;
-	border-color: #ffcf1c;
+	background-color: #A27B5C;
+	border-color: #A27B5C;
 }
 .borderd-btn {
-	border-color: #ffcf1c;
+	border-color: #A27B5C;
 }
 .borderd-btn:hover {
-	background-color: #ffcf1c;
+	background-color: #A27B5C;
 }
 .portfolio-menu ul li:hover, .portfolio-menu ul li.active {
-    color: #ffcf1c;
-    border-color: #ffcf1c;
+    color: #A27B5C;
+    border-color: #A27B5C;
 }
 .service-icon {
-	color: #ffcf1c;
-	border-color: #ffcf1c;
+	color: #A27B5C;
+	border-color: #A27B5C;
 }
 .my-progress-bar .progress .progress-bar {
-	background-color: #FFCE1D;
+	background-color: #A27B5C;
 }
-.my-progress-bar .progress .progress-bar::after {
-	background: #ffcf1c;
-	color: #ffcf1c;
-	box-shadow: 0 0 0 5px #fff0bb;
+.my-progress-bar .A27B5C .progress-bar::after {
+	background: #A27B5C;
+	color: #A27B5C;
+	box-shadow: 0 0 0 5px #af927b;
 }
 .owl-nav div {
-	background: #ffcf1c;
+	background: #A27B5C;
 }
 .author-rating i.fa {
-    color: #ff9800;
+    color: #3F4E4F;
 }
 input[type="submit"], button[type="submit"] {
-	background: #ffcf1c;
+	background: #A27B5C;
 }
 .social-media a:hover {
-    background: #ffce1d;
+    background: #A27B5C;
 }
 .scroll-to-top {
-	background: #f0ad4e;
+	background: #3F4E4F;
 }
 /*blog*/
 .blog-details-link ul li a:hover{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .blog-details-para p.activv{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .blog-details-tags ul li a:hover{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .blog-details-like ul li a i{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .blog-comment-txt .reply span{
-	color:#ffce1d;
+	color:#A27B5C;
 }
 .single-form input:hover,.single-form textarea:hover{
-	border:1px solid #ffce1d;
+	border:1px solid #A27B5C;
 }
 .blog-side-search i{
-	color:#ffce1d;
+	color:#A27B5C;
 }
 .sidebar-recent-post a:hover{
-	color:#ffce1d;
+	color:#A27B5C;
 }
 .sidebar-archive-post a:hover{
-	color:#ffce1d;
+	color:#A27B5C;
 }
 .portfolio-hover a:hover{
-  background:#ffce1d;
+  background:#A27B5C;
 }

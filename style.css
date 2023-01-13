@@ -86,14 +86,14 @@ a:hover, a:focus { text-decoration: none }
     padding-top: 0px; 
 }
 .boxed-btn, .borderd-btn {
-    background-color: #ffcf1c;
+    background-color: #A27B5C;
     border-radius: 36px;
     color: #fff;
     display: inline-block;
     margin-right: 10px;
     padding: 10px 60px;
     transition: 0.3s;
-    border: 1px solid #ffcf1c;
+    border: 1px solid #A27B5C;
 }
 .boxed-btn:hover{
 	background: transparent;
@@ -103,7 +103,7 @@ a:hover, a:focus { text-decoration: none }
     background: transparent;
 }
 .borderd-btn:hover{
-	background: #ffcf1c;
+	background: #A27B5C;
 	color: #fff;
 }
 input[type="text"], input[type="email"], input[type="submit"], input[type="tel"], input[type="phone"], textarea, button[type="submit"] {
@@ -114,14 +114,14 @@ input[type="text"], input[type="email"], input[type="submit"], input[type="tel"]
     width: 100%;
 }
 input[type="submit"], button[type="submit"] {
-    background: #ffce1d none repeat scroll 0 0;
+    background: #A27B5C none repeat scroll 0 0;
     color: #fff;
     padding: 10px 150px;
     width: auto;
     transition: 0.3s;
 }
 input[type="submit"]:hover, button[type="submit"]:hover {
-    background: #000 none repeat scroll 0 0;
+    background: #2C3639 none repeat scroll 0 0;
 }
 /*=====================================
   Preloder CSS
@@ -145,7 +145,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #ffcc33;
+  background-color: #ffc18f;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
           animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
@@ -219,7 +219,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   transition: 0.3s;
 }
 .mainmanu ul li:hover a, .mainmanu ul li.current a, .off-canvas-menu ul li:hover a, .off-canvas-menu ul li.current a{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .header-area {
   left: 0;
@@ -239,7 +239,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   transition: all 0.3s ease 0s;
 }
 .menu-trigger:hover{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .off-canvas-menu {
   background: #fff none repeat scroll 0 0;
@@ -254,7 +254,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   padding-top: 25px;
 }
 .menu-close {
-  color: #ffcc33;
+  color: #A27B5C;
   cursor: pointer;
   margin-top: 12px;
   padding: 50px 40px 40px;
@@ -326,7 +326,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     opacity: 0.9;
 }
 .slide-area h3 {
-    color: #ffcc33;
+    color: #A27B5C;
     font-size: 22px;
     font-weight: 600;
 }
@@ -379,14 +379,18 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 /*=====================================
   Portfolio CSS
 =======================================*/
-.portfolio-bg-1{background-image: url(assets/img/portfolio-1.jpg);}
-.portfolio-bg-2{background-image: url(assets/img/portfolio-2.jpg);}
-.portfolio-bg-3{background-image: url(assets/img/portfolio-3.jpg);}
-.portfolio-bg-4{background-image: url(assets/img/portfolio-4.jpg);}
-.portfolio-bg-5{background-image: url(assets/img/portfolio-5.jpg);}
-.portfolio-bg-6{background-image: url(assets/img/portfolio-6.jpg);}
-.portfolio-bg-7{background-image: url(assets/img/portfolio-7.jpg);}
-.portfolio-bg-8{background-image: url(assets/img/portfolio-8.jpg);}
+.portfolio-bg-1{background-image: url(assets/img/technologies/php.png);}
+.portfolio-bg-2{background-image: url(assets/img/technologies/laravel.jpg);}
+.portfolio-bg-3{
+  background-image: url(assets/img/technologies/react_material.png);
+  width: 100%; object-fit: cover;
+}
+.portfolio-bg-4{background-image: url(assets/img/technologies/laravel-nova.png);}
+
+.portfolio-bg-5{background-image: url(assets/img/technologies/bootstrap.png);}
+.portfolio-bg-6{background-image: url(assets/img/technologies/html.jpg);}
+.portfolio-bg-7{background-image: url(assets/img/technologies/mysql.png);}
+.portfolio-bg-8{background-image: url(assets/img/technologies/git.jpg);}
 
 .single-portfolio {
     background-position: center center;
@@ -438,7 +442,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   opacity: 0.8;
 }
 .portfolio-hover a:hover{
-  background:#ffcf1c;
+  background:#A27B5C;
   opacity: 1;
 }
 .portfolio-hover h3 {
@@ -481,8 +485,8 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     border-bottom: 2px solid #fff;
 }
 .portfolio-menu ul li:hover, .portfolio-menu ul li.active {
-	color: #ffcf1c;
-	border-color: #ffcf1c;
+	color: #A27B5C;
+	border-color: #A27B5C;
 }
 .portfolio-menu {
     margin-bottom: 50px;
@@ -516,9 +520,9 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     color: #fff;
 }
 .service-icon {
-    border: 1px solid #ffcf1c;
+    border: 1px solid #A27B5C;
     border-radius: 50%;
-    color: #ffcf1c;
+    color: #A27B5C;
     display: inline-block;
     font-size: 25px;
     height: 60px;
@@ -572,14 +576,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   animation: 2s ease-out animate-positive;
   box-shadow: none;
   position: relative;
-  background-color: #FFCE1D;
+  background-color: #A27B5C;
   border-radius: 5px;
 }
 .my-progress-bar .progress .progress-bar::after {
-  background:  #ffcf1c;
+  background:  #A27B5C;
   border-radius: 50%;
-  box-shadow: 0 0 0 5px #fff0bb;
-  color: #ffcf1c;
+  box-shadow: 0 0 0 5px #DCD7C9;
+  color: #A27B5C;
   content: "";
   height: 15px;
   margin-top: -2.5px;
@@ -665,10 +669,10 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     position: relative;
 }
 .author-rating i.fa {
-    color: #ff9800;
+    color: #A27B5C;
 }
 .owl-nav div {
-    background: #ffce1d none repeat scroll 0 0;
+    background: #A27B5C none repeat scroll 0 0;
     color: #fff;
     height: 30px;
     left: -10%;
@@ -726,7 +730,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     transition: 0.3s;
 }
 .social-media a:hover{
-	background: #ffce1d;
+	background: #A27B5C;
 }
 /*=====================================
   Botton to top CSS
@@ -801,7 +805,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 	color: #333;
 }
 .blog-details-link ul li a:hover{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .blog-details-para{
 	padding: 20px 0px 35px;
@@ -812,7 +816,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
     font-weight: 300;
 }
 .blog-details-para p.activv{
-	color: #ffce1d;
+	color: #A27B5C;
 	margin: 17px 0px 17px 45px;
 	font-size: 17px;
     font-weight: 400;
@@ -842,7 +846,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 	transition:all 0.3s;
 }
 .blog-details-tags ul li a:hover{
-	color: #ffce1d;
+	color: #A27B5C;
 }
 .blog-details-like{
 	float:right;
@@ -851,7 +855,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 	margin-right:20px;
 }
 .blog-details-like ul li a i{
-	color: #ffce1d;
+	color: #A27B5C;
 	margin-right:10px;
 	font-size:18px;
 }
@@ -893,7 +897,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 	color: #222222;
 }
 .blog-comment-txt .reply span{
-	color:#ffce1d;
+	color:#A27B5C;
 	transition: 0.3s;
 }
 .blog-comment-txt .reply a span:hover {
@@ -932,13 +936,13 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 	transition:all 0.3s;
 }
 .single-form input:hover,.single-form textarea:hover{
-	border:1px solid #ffce1d;
+	border:1px solid #A27B5C;
 }
 .single-form button{
 	width: 70%;
 	height: 50px;
 	font-size: 14px;
-	background: #F9BF3A;
+	background: #A27B5C;
 	border: none;
 	color: #fff;
 	text-transform: uppercase;
@@ -967,7 +971,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 }
 .blog-side-search i{
 	float:right;
-	color:#ffce1d;
+	color:#A27B5C;
 	font-size: 18px;
 	padding-top:2px;
 }
@@ -1019,7 +1023,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 	transition:all 0.3s;
 }
 .sidebar-recent-post a:hover{
-	color:#ffce1d;
+	color:#A27B5C;
 }
 .sidebar-archive-post{
     font-weight: 300;
@@ -1047,9 +1051,18 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 	transition:all 0.3s;
 }
 .sidebar-archive-post a:hover{
-	color:#ffce1d;
+	color:#A27B5C;
 }
 .single-blog.single-blog-page:hover{
   box-shadow: none;
 }
 /* SINGLE BLOG PAGE CSS END */
+
+.circle
+{
+  height: 19vw;
+  width: 18vw;
+  border: solid 1px #DCD7C9;
+  background-color: #A27B5C;
+  border-radius:50%;
+}
